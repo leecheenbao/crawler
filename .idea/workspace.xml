@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c505c7e-7c10-4d6d-a7c0-b8608831acd6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ptt/crawler/Reader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ptt/crawler/config/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ptt/crawler/model/Article.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ptt/crawler/model/Board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ptt/crawler/ReaderTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="0c505c7e-7c10-4d6d-a7c0-b8608831acd6" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,6 +49,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
     "vue.rearranger.settings.migration": "true"
   }
@@ -104,7 +94,7 @@
       <option name="presentableId" value="Default" />
       <updated>1671795141755</updated>
       <workItem from="1671795143049" duration="1822000" />
-      <workItem from="1672038536070" duration="5042000" />
+      <workItem from="1672038536070" duration="5348000" />
     </task>
     <servers />
   </component>
@@ -121,7 +111,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ptt/crawler/Reader.java</url>
-          <line>109</line>
+          <line>107</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
