@@ -124,4 +124,30 @@ public class Reader {
 
         return result;
     }
+    public String getBody(Article article) throws IOException {
+        /* 如果看板需要成年檢查 */
+        if (article.getParent().getAdultCheck()) {
+            runAdultCheck(article.getUrl());
+        }
+
+        /* 抓取目標頁面 */
+        Request request = new Request.Builder()
+                .url(Config.PTT_URL + article.getUrl())
+                .get()
+                .build();
+
+        Response response = okHttpClient.newCall(request).execute();
+        String body = response.body().string();
+        Document doc = Jsoup.parse(body);
+        Elements articleBody = doc.select("#main-content");
+
+        /* 移除部份不需要的資訊 */
+        articleBody.select(".article-metaline").remove();
+        articleBody.select(".article-metaline-right").remove();
+        articleBody.select(".push").remove(); // 回應內容
+
+        /* 回傳文章內容 */
+        return articleBody.text();
+    }
+
 }

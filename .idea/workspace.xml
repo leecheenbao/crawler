@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0c505c7e-7c10-4d6d-a7c0-b8608831acd6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ptt/crawler/model/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ptt/crawler/model/Article.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ptt/crawler/model/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ptt/crawler/model/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ptt/crawler/Reader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ptt/crawler/Reader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +52,9 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
     "vue.rearranger.settings.migration": "true"
   }
@@ -68,7 +67,23 @@
       <recent name="ptt.crawler" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.ReaderTest.article">
+    <configuration name="ReaderTest.article" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="crawler" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ptt.crawler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ptt.crawler" />
+      <option name="MAIN_CLASS_NAME" value="ptt.crawler.ReaderTest" />
+      <option name="METHOD_NAME" value="article" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ReaderTest.list" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="crawler" />
       <extension name="coverage">
@@ -87,6 +102,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ReaderTest.article" />
         <item itemvalue="JUnit.ReaderTest.list" />
       </list>
     </recent_temporary>
@@ -100,7 +116,7 @@
       <option name="presentableId" value="Default" />
       <updated>1671795141755</updated>
       <workItem from="1671795143049" duration="1822000" />
-      <workItem from="1672038536070" duration="6505000" />
+      <workItem from="1672038536070" duration="6839000" />
     </task>
     <servers />
   </component>

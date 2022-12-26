@@ -37,4 +37,22 @@ class ReaderTest {
             e.printStackTrace();
         }
     }
+
+    @Test
+    void article() {
+        try {
+            List<Article> result = reader.getList("Gossiping");
+
+            for (Article article: result) {
+                System.out.println(reader.getBody(article));
+                Thread.sleep(2000);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (ParseException e) {
+            e.printStackTrace();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
 }
