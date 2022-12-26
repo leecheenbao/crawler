@@ -1,7 +1,11 @@
 package ptt.crawler.model;
 
-import java.util.Date;
+import lombok.Data;
+import lombok.ToString;
 
+import java.util.Date;
+@Data
+@ToString
 public class Article {
     private Board parent; // 所屬板塊
     private String url; // 網址
@@ -16,38 +20,5 @@ public class Article {
         this.title = title;
         this.author = author;
         this.date = date;
-    }
-
-    public Board getParent() {
-        return parent;
-    }
-
-    public String getUrl() {
-        return url;
-    }
-
-    public String getTitle() {
-        return title;
-    }
-
-    public String getBody() {
-        return body;
-    }
-
-    public void setBody(String body) {
-        this.body = body;
-    }
-
-    public String getAuthor() {
-        return author;
-    }
-
-    public Date getDate() {
-        return date;
-    }
-
-    @Override
-    public String toString() {
-        return String.format("Article{ url='%s', title='%s', body='%s', author='%s', date='%s' }", url, title, body, author, date);
     }
 }

@@ -1,5 +1,10 @@
 package ptt.crawler.model;
 
+import lombok.Data;
+import lombok.ToString;
+
+@Data
+@ToString
 public class Board {
     private String url; // 看板網址
     private String nameCN; // 中文名稱
@@ -13,19 +18,5 @@ public class Board {
         this.adultCheck = adultCheck;
     }
 
-    public String getUrl() {
-        return url;
-    }
 
-    public String getNameCN() {
-        return nameCN;
-    }
-
-    public String getNameEN() {
-        return nameEN;
-    }
-
-    public Boolean getAdultCheck() {
-        return adultCheck;
-    }
 }
